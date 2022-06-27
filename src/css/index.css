@@ -1,0 +1,59 @@
+:root {
+	--main-green: #33ccc5;
+	--main-blue: #4771cb;
+	--main-transition: 0.5s;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Small Screen */
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+
+/* Medium Screen */
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+
+/* Large Screen */
+@media (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+}
+
+.main-button {
+	padding: 10px 20px;
+	border-radius: 40px;
+	border-bottom: 3px solid;
+}
